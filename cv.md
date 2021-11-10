@@ -72,11 +72,10 @@ function multiply(a, b){
     (completed a thesis consisting of two projects on layout)
   - JavaScript on the [LearnJavaScript](https://learn.javascript.ru/)
   - RS School course "JavaScript/Front-end" in progress
-  ***
 
 ---
 
 ### Languages
 
-  - English - A2 (Pre-Intermediate) and continue to study with Duolindo and a textbook "Essential Grammar in Use"
-  - Russia - Native
+- English - A2 (Pre-Intermediate) and continue to study with Duolindo and a textbook "Essential Grammar in Use"
+- Russia - Native
