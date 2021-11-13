@@ -270,15 +270,17 @@ body {
     font-size: 16px;
     line-height: 24px;
     font-weight: normal;
-    color: #433633;
+    color: #262626;
+    background-color: #F5F4F1;
 }
 
 a {
     text-decoration: none;
+    color: #F38B1B;
 }
 .container {
     box-sizing: border-box;
-    max-width: 1219px;
+    max-width: 1024px;
     margin-left: auto;
     margin-right: auto;
     padding-left: 55px;
@@ -286,21 +288,19 @@ a {
 }
 
 .header {
-    background-color: #D6C6B5;
-    box-shadow: 4px ;
+    background-color: #9C9F9A;
     position: fixed;
     top: 0;
     left: 0;
     width: 100%;
-    height: 70px;
+    height: 50px;
 }
 
 .header__list {
     display: flex;
-    flex-wrap: wrap;
     justify-content: right;
-    margin-top: 20px;
-    margin-bottom: 20px;
+    margin-top: 15px;
+    margin-bottom: 15px;
 }
 
 .header__item {
@@ -312,41 +312,37 @@ a {
 }
 
 .header__link {
-    font-size: 24px;
-    line-height: 28px;
-    color: #2E302D;
-}
-
-.main {
-    padding-top: 70px;
+    font-size: 20px;
+    color: #262626;
 }
 
 .banner {
     background-image: url("../img/photo.jpg");
     background-size: cover;
     background-position: center center;
+    min-height: 100vh;
+    padding-top: 50px;
+    margin-top: -50px;
     background-clip: content-box;
 }
 
 .banner__name {
     font-size: 50px;
-    font-weight: 600;
+    font-weight: bold;
     letter-spacing: 5px;
     padding-top: 200px;
     padding-bottom: 50px;
-    color: #2E302D;
 }
 
 .banner__profession {
     font-size: 30px;
-    font-weight: 500;
+    font-weight: normal;
     padding-bottom: 300px;
-    color: #2E302D;
 }
 
 .myself {
-    padding-top: 30px;
-    background-color: #D4DBD6;
+    padding-top: 80px;
+    margin-top: -50px;
 }
 
 .about__myself {
@@ -358,7 +354,50 @@ a {
 
 .myself__text {
     font-size: 20px;
-    font-weight: 400;
-    color: #2E302D;
+    font-weight: normal;
     margin-bottom: 20px;
+}
+
+.skills {
+    padding-top: 50px;
+    margin-top: -50px;
+}
+
+.skills__head {
+    font-size: 30px;
+    font-weight: bold;
+    padding-top: 30px;
+    margin-bottom: 30px;
+}
+
+.skills__link {
+    font-size: 20px;
+    font-weight: normal;
+    margin-bottom: 10px;
+}
+
+.skills__link:last-child {
+    margin-bottom: 0;
+}
+
+.education__cours {
+    font-size: 16px;
+    font-weight: normal;
+    margin-bottom: 10px;
+}
+
+.orange__disc {
+    list-style-type: disc;
+}
+
+.container__skills {
+    width: 250px;
+    margin-right: 15px;
+}
+
+.container__flex {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: baseline;
+    justify-content: space-between;
 }
