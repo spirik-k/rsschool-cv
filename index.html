@@ -13,16 +13,19 @@
         <nav class="header__nav">
           <ul class="header__list">
             <li class="header__item">
-              <a href="#banner" class="header__link">Who</a>
+              <a href="#banner" class="header__link">Me</a>
             </li>
             <li class="header__item">
-              <a href="#myself" class="header__link">Why</a>
+              <a href="#myself" class="header__link">About</a>
             </li>
             <li class="header__item">
-              <a href="#skills" class="header__link">How</a>
+              <a href="#skills" class="header__link">Skills</a>
             </li>
             <li class="header__item">
-              <a href="#!" class="header__link">Where</a>
+              <a href="#video" class="header__link">Video</a>
+            </li>
+            <li class="header__item">
+              <a href="#contacts" class="header__link">Contacts</a>
             </li>
           </ul>
         </nav>
@@ -98,27 +101,23 @@
                 <ul class="orange__disc">
                   <li class="education__cours">
                     HTML, CSS on the
-                    <a href="https://ru.code-basics.com/languages/html">CodeBasic</a>
+                    <a href="https://ru.code-basics.com/languages/html" target="_blank">CodeBasic</a>
                   </li>
                   <li class="education__cours">
                     Introduction to programming on the
-                    <a href="https://ru.hexlet.io/courses/introduction_to_programming">Hexlet</a>
+                    <a href="https://ru.hexlet.io/courses/introduction_to_programming" target="_blank">Hexlet</a>
                   </li>
                   <li class="education__cours">
                     Introduction to HTML and CSS on the
-                    <a href="https://stepik.org/course/38218/syllabus">CodeBasic</a>
+                    <a href="https://stepik.org/course/38218/syllabus" target="_blank">Stepik</a>
                     (completed a thesis consisting of two projects on layout)
                   </li>
                   <li class="education__cours">
                     JavaScript on the
-                    <a href="https://ru.code-basics.com/languages/html">Stepik</a>
+                    <a href="https://learn.javascript.ru/" target="_blank">LearnJavaScript</a>
                   </li>
                   <li class="education__cours">
-                    HTML, CSS on the
-                    <a href="https://learn.javascript.ru/">LearnJavaScript</a>
-                  </li>
-                  <li class="education__cours">
-                    <a href="https://rollingscopes.com/">RS School</a> course
+                    <a href="https://rollingscopes.com/" target="_blank">RS School</a> course
                     "JavaScript/Front-end" in progress
                   </li>
                 </ul>
@@ -135,8 +134,56 @@
               </ul>
             </div>
           </div>
+          <hr color="#F38B1B" width="100%" height="1px"/>
+        </div>
+      </section>
+
+      <section class="video" id="video">
+        <div class="video__container">
+          <div class="video__item"></div>
+            <!-- <iframe class="video__element" src="https://www.youtube.com/embed/TJFVV2L8GKs" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe> -->
         </div>
       </section>
     </main>
+
+    <footer class="contacts" id="contacts">
+      <div class="container">
+        <div class="footer__container">
+          <div class="footer__logo">
+            <a href="https://rollingscopes.com/" target="_blank"><img src="./img/logo_rs_text.svg" alt="RSSchool" class="rsschool__logo" width="100px" height="100px"></a>
+          </div>
+          <div class="contacts__container">
+            <ul class="contacts__list">
+              <li class="contact">
+                <a href="tel:+79990322336">
+                  <img src="./img/call.png" alt="+79990322336" width="24px" height="24px"/>
+                </a>
+              </li>
+              <li class="contact">
+                <a href="mailto:geekchic@yandex.ru" target="_blank">
+                  <img src="./img/email.png" alt="geekchic@yandex.ru" width="24px" height="24px"/>
+                </a>
+              </li>
+              <li class="contact">
+                <a href="https://github.com/spirik-k" target="_blank">
+                  <img src="./img/github.png" alt="github:@spirik-k" width="24px" height="24px"/>
+                </a>
+              </li>
+              <li class="contact">
+                <a href="https://telegram.im/@kiraass" target="_blank">
+                  <img src="./img/telegram.png" alt="telegram:@kiraass" width="24px" height="24px"/>
+                </a>
+              </li>
+              <li class="contact">
+                <a href="https://twitter.com/spirik_kira" target="_blank">
+                  <img src="./img/twitter.png" alt="twitter:@spirik_kira" width="24px" height="24px"/>
+                </a>
+              </li>
+            </ul>
+          </div>
+        </div>
+        <p class="year">2021</p>
+      </div>
+    </footer>
   </body>
 </html>
